@@ -50,13 +50,24 @@ composer install
 npm install
 npm run dev
 cp .env.example .env
+```
+
+Initialize the databse.
+
+```
 touch /database/database.sqlite
 php artisan migrate
 ```
 
+Link to the local storage.
+
+```
+php artisan storage:link
+```
+
 If you would like to see emails, create a [Mailtrap](https://mailtrap.io/register/signup) account and paste your username and password in your .env file.
 
-The database file is provided in this repository, you only need to run the app.
+Run the app
 
 ```
 php artisan serve
