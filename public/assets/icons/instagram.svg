@@ -1,0 +1,20 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    aria-hidden="true" 
+    role="img" 
+    width="50" 
+    height="50" 
+    preserveAspectRatio="xMidYMid meet" 
+    viewBox="0 0 256 256">
+    <path 
+        fill="currentColor" 
+        d="M128 84a44 44 0 1 0 44 44a44
+        44 0 0 0-44-44Zm0 80a36 36 0 1
+        1 36-36a36 36 0 0 1-36 36Zm44-132H84a52
+        52 0 0 0-52 52v88a52 52 0 0 0 52 52h88a52
+        52 0 0 0 52-52V84a52 52 0 0 0-52-52Zm44
+        140a44 44 0 0 1-44 44H84a44 44 0 0
+        1-44-44V84a44 44 0 0 1 44-44h88a44
+        44 0 0 1 44 44Zm-28-96a8 8 0 1 1-8-8a8
+        8 0 0 1 8 8Z"/>
+</svg>

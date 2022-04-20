@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+.posts_followers_following{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    font-size: medium;
+    width: max-content;
+}
+
+.container{
+    width: 50vw;
+}
+
+.top_container{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    padding: 0 0 0 5rem;
+}
+
+.username_add_settings{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.add{
+    background-color: transparent;
+    border: 1px solid #00000055;
+    border-radius: 5px;
+    font-size: smaller;
+    width: max-content;
+    padding: 0.1rem 0.7rem 0.1rem 0.7rem;
+}
+
+.settings{
+    cursor: pointer;
+}
+
+.username{
+    font-size: xx-large;
+}
+
+.title{
+    margin: 1rem 0 0 0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: small;
+}
+
+.line{
+    margin-top: 2rem;
+    height: 0;
+    width: 100%;
+    border-top: 1px solid #00000033;
+}
+
+.posts, .saved, .tagged{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #00000055;
+    cursor: pointer;
+    user-select: none;
+}
+
+.posts_saved_tagged{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.selected{
+    color: black;
+    position: relative;
+}
+
+.selected::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: -1.1rem;
+    left: 0;
+    border-top: 2px solid green;
+    cursor: default;
+}
+
+.photo_grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.photo_grid img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post_show{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.post_show img{
+    width: 70%;
+}
+
+.username_caption{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.username_caption div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.username_caption div img{
+    width: 4rem;
+}
+
+.follow a{
+    font-weight: bold;
+    color: #0095F6;
+    text-decoration: none;
+}
+
+.follow_button{
+    background-color: #0095F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    padding: 0.1rem 0.7rem 0.1rem 0.7rem;
+}
+
+.unfollow_button{
+    background-color: white;
+    border: 1px solid #0095F6;
+    border-radius: 5px;
+    color: #0095F6;
+    font-size: small;
+    padding: 0.1rem 0.7rem 0.1rem 0.7rem;
+}
+
+.center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.post_show2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #00000033;
+    gap: 2rem;
+}
+
+.post_show2 img{
+    width: 50%;
+}
+
+.post_show2 p{
+    width: 20rem;
+}
+
+.username_caption2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.username_caption2 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.username_caption2 div img{
+    width: 4rem;
+}
